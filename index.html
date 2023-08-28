@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <title>Result Summary</title>
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="left__container">
+                <h3 class="title">Your Result</h3>
+                <div class="round__container">
+                    <h2 class="grade">76</h2>
+                    <p class="max">of 100</p>
+                </div>
+                <h2 class="comment">Great</h2>
+                <p class="comment_extended">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+            <div class="right__container">
+                <h3 class="title">Summary</h3>
+                <div class="box__reaction">
+                    <div class="status_icon_title">
+                        <img src="./assets/images/icon-reaction.svg" alt="Reaction icon">
+                        <p class="status">Reaction</p>
+                    </div>
+                    <p class="grade__status" id="reactionstatus"><span class="gs">80</span> / 100</p>
+                </div>
+                <div class="box__memory">
+                    <div class="status_icon_title">
+                        <img src="./assets/images/icon-memory.svg" alt="Memory icon">
+                        <p class="status">Memory</p>
+                    </div>
+                    <p class="grade__status" id="memorystatus"><span class="gs">80</span> / 100</p>
+                </div>
+                <div class="box__verbal">
+                    <div class="status_icon_title">
+                        <img src="./assets/images/icon-verbal.svg" alt="Reaction icon">
+                        <p class="status">Verbal</p>
+                    </div>
+                    <p class="grade__status" id="verbalstatus"><span class="gs">80</span> / 100</p>
+                </div>
+                <div class="box__visual">
+                    <div class="status_icon_title">
+                        <img src="./assets/images/icon-visual.svg" alt="Reaction icon">
+                        <p class="status">Visual</p>
+                    </div>
+                    <p class="grade__status" id="visualstatus"><span class="gs">80</span> / 100</p>
+                </div>
+                <a href="#" class="continuebtn" id="continuebtn">Continue</a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js" type="module"></script>
+</body>
+</html>
