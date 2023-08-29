@@ -31,7 +31,7 @@ body{
     }
     .wrapper{
         width: 50vw;
-        height:60vh;
+        height: 70vh;
         background-color: $neutral-color-white;
         display: flex;
         box-shadow: 2px 3px $neutral-color-blue;
@@ -64,8 +64,6 @@ body{
             .round__container{
                 background: linear-gradient(360deg, rgba(78,33,202,0) 9%, rgba(36,33,202,1) 88%);
                 border-radius: 50%;
-                width: 45%;
-                height: 40%;
                 text-align: center;
                 display: flex;
                 flex-direction: column;
